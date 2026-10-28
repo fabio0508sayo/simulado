@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/cadastrarEntrega.js" defer></script>
+    <title>cadastro funcionario</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="../index.html">Home</a>
+            <a href="./login.html">Login funcionario</a>
+            <a href="./CadastrarFuncionario.html">Cadastrar Funcionario</a>
+            <a href="./cadastrarEntregaa.html">Cadastrar encomenda</a>
+            <a href="./cadastrarCarga.html">Cadastrar carga</a>
+        </nav>
+    </header>
+    <main>
+        <h1></h1>
+
+        <form>
+            <input type="text" id="cidadeDestino" placeholder="Cidade destinada" required><br><br>
+
+            <input type="text" id="statusAtual" placeholder="Status atual" required><br><br>
+
+            <input type="datetime" id="dataHora" placeholder="Data e hora" required >
+
+            <input type="number" id="idCarga" placeholder="senha" required >
+
+
+            <button id="btn">Cadastrar</button>
+        </form>
+
+        <div id="resposta" class="resposta"></div>
+    </main>
+    
+</body>
+</html>
